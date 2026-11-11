@@ -1,7 +1,8 @@
-```markdown
 # 💾 Módulo de Diagnóstico de Discos (`Disks`)
 
 Esta pasta contém o script `Check-DiskHealth.ps1` e o guia explicativo dos comandos de PowerShell e utilitários de diagnóstico de discos rígidos (HDDs) e unidades de estado sólido (SSDs).
+
+Para correr a script, executa o comando: .\Check-DiskHealth.ps1
 
 ---
 
@@ -52,4 +53,3 @@ Esta pasta contém o script `Check-DiskHealth.ps1` e o guia explicativo dos coma
 
 - **`$e = Get-WinEvent -FilterHashtable @{LogName='System' ; ProviderName='disk'} -MaxEvents 50 -ErrorAction SilentlyContinue | Where-Object Message -match 'Harddisk0'`**
   Filtra os últimos 50 eventos do fornecedor `disk` para encontrar erros ou avisos direcionados especificamente à unidade principal (`Harddisk0`) e guarda os resultados na variável `$e` para análise posterior.
-```
