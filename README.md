@@ -1,6 +1,6 @@
 # 🛠️ PC Maintenance Toolkit
 
-Este repositório é um conjunto de ferramentas, scripts e comandos para a **PowerShell do Windows**, desenvolvido durante a formação de **Montagem e Manutenção de PCs**. O objetivo é facilitar o diagnóstico, a verificação de saúde e a resolução de problemas em hardware e no sistema operativo.
+Este repositório é um conjunto de ferramentas, scripts e comandos para a **PowerShell do Windows** cujo principal objetivo é facilitar o diagnóstico, a verificação de saúde e a resolução de problemas em hardware e no sistema operativo.
 
 ---
 
