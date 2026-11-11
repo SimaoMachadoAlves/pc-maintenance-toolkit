@@ -2,7 +2,14 @@
 
 Esta pasta contém o script `Check-DiskHealth.ps1` e o guia explicativo dos comandos de PowerShell e utilitários de diagnóstico de discos rígidos (HDDs) e unidades de estado sólido (SSDs).
 
-Para correr a script, dentro da pasta principal (pc-maintenance-toolkit), executa o comando: .\Disks\Check-DiskHealth.ps1
+> [!IMPORTANT]
+> **Como executar o script:**
+>
+> Abre o PowerShell na pasta principal do projeto (`pc-maintenance-toolkit`) e executa:
+>
+> ```powershell
+> .\Disks\Check-DiskHealth.ps1
+> ```
 
 ---
 
