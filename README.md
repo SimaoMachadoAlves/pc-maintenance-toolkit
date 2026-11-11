@@ -13,10 +13,26 @@ O projeto encontra-se organizado por módulos de componentes:
 
 ---
 
+## ⚙️ Requirements (Pré-requisitos por Módulo)
+
+Para que os scripts funcionem na totalidade, cada módulo pode exigir ferramentas externas ou dependências específicas:
+
+### 💾 Módulo de Discos (`Disks`)
+* **Dependência:** `smartctl` (Smartmontools)
+* **Para que serve:** Necessário para efetuar leituras e testes SMART avançados aos discos rígidos e SSDs.
+* **Link de instalação:** [Baixar Smartmontools](https://sourceforge.net/projects/smartmontools/) *(certifica-te de adicionar o executável ao PATH do sistema durante a instalação)*
+
+### 🧠 Módulo de RAM *(Brevemente)*
+* *Requisitos e dependências serão adicionados aqui quando o módulo for criado.*
+
+### ⚡ Módulo de CPU *(Brevemente)*
+* *Requisitos e dependências serão adicionados aqui quando o módulo for criado.*
+
+---
+
 ## 🚀 Como Executar os Scripts
 
 1. Abre a **Windows PowerShell como Administrador**.
 2. Se necessário, permite a execução temporária de scripts na sessão atual:
    ```powershell
    Set-ExecutionPolicy Unrestricted -Scope Process
-   ```
